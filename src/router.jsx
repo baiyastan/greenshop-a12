@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Service from "./pages/Service";
 
 const myRouter = createBrowserRouter([
     {
@@ -20,7 +21,11 @@ const myRouter = createBrowserRouter([
             {
                 path: "contact",
                 element: <Contact/>
-            }
+            },
+            {
+                path: "service",
+                element: <Service/>
+            },
         ]
     }
 ])
